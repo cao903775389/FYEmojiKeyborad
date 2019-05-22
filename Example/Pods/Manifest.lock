@@ -1,0 +1,23 @@
+PODS:
+  - FYEmojiKeyboard (1.0.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FYEmojiKeyboard (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  FYEmojiKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYEmojiKeyboard: 0cced1da2d9677f4680b46de0738da90220f6ed7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: aabbc060ee1022d4408a202cd0920691e93fc425
+
+COCOAPODS: 1.6.1

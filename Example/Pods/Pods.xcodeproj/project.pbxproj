@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F3B5751CE3DB55C9EEB444369A82DA /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0241BF9B31A9632E774C1343DDC9345A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		038CAA9766C9772184F9C592438D1117 /* FYEmojiTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0178D4E9E1802983F158161DED2A0 /* FYEmojiTextView.m */; };
+		0466485F6E2A4AEAAD03C0BD65FED0AB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */; };
+		09EC3CB9B2B2632DC8C9AAC30064B544 /* FYEmojiKeyBoardViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E4BF6F4E211531BF3DCCCAD4FCF95 /* FYEmojiKeyBoardViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3493EA78ADD63F1E3AE7141E480A94 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19F2B3AD7F9B3F56FE0863F7FBAF2C34 /* Pods-FYEmojiKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941FAD1C0095ADD9CBD48907A57B439D /* Pods-FYEmojiKeyboard_Example-dummy.m */; };
+		231FEA6FC935B90491F02BCB3F5000B9 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232C5F245BA53350E0440C73EB0838E3 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2634F00E32A10CFE81F470A595554C29 /* FYEmojiTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F61785C7E2E057BB9CA04F02B5E19C06 /* FYEmojiTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CA9793440535ED7D8BDDC3A565B8666 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DD50C037B6CA9D8AC7715850498C9BF /* Pods-FYEmojiKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C87452665B73EF4381C94BD644794EAB /* Pods-FYEmojiKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F34F87E5588AD0ADC81DC1825933351 /* FYEmojiKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9642D5FB8172D6943F6F4609B56D3F6 /* FYEmojiKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35EFCC2C02B6C7C8864585AF8C5FBE12 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3936B645AEEC511523D9F7F462F579C4 /* FYEmojiKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2756E961B0E1F0EDF662E373F7121BC6 /* FYEmojiKeyBoardManager.m */; };
+		420CF69FACF58D737AE0C218D5064033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
+		44FB37C309E7A714D54C8B7F9F0A33F3 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4721D2BD9C0A3F3524C3C23AD5135FE7 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51373BA8D4A168AF2F31D3C832DC0262 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */; };
+		51B0C834690BE5E5EF7A36196E5859E5 /* Pods-FYEmojiKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFAB8B3D3AA6EB1B8B27BBF9196E513 /* Pods-FYEmojiKeyboard_Tests-dummy.m */; };
+		53C23F4505457526BC62137C669E7E80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998D6634C115D4C55CB45C074E927E83 /* UIKit.framework */; };
+		54E2959ECB8F2FE5334F59E064AD7C3D /* FYEmojiKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FD6D59BF0A9454B3C8886E772FAB17 /* FYEmojiKeyBoardView.m */; };
+		698FE3DD3CF6B2B6FEF77FEEFE638E47 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E8CBCF5AB4C601C6C41458DFD18A7E /* FYEmojiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F8463476AD30A498BDB9E562859A44 /* FYEmojiPageView.m */; };
+		712D93235379F6F46BEE37D467346036 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */; };
+		71CD8A7768C4B1B75F38A90630FDBB5C /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71DE538638014F79EAA447B2A1C81607 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */; };
+		7475BFA898E94BD5AED1E96E171A1518 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A953320247DF8891C41A5E7E92040FB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */; };
+		8A909BCB70D1098A9BF5D509100D5DBC /* FYEmojiKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822BB62DF92D6DDA272B6CF8DFFDE55 /* FYEmojiKeyboard-dummy.m */; };
+		8FECFCDE01AAB8331B5029004AD48BC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */; };
+		9B21FDFDF49D8DC21B3B6994A17F0872 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C27B1E1A38C93CCC675C65DBD9B4C31 /* FYEmojiKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B9D163C757CD9C1C952C85E2F230411 /* FYEmojiKeyboard.bundle */; };
+		9E2EEACEA61FD75C74C37BBCC22D55CE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */; };
+		AFD883AB8BE375FDBC2C5AE587D591DF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */; };
+		B2A12EA353DCA150B5F1A771085CD670 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */; };
+		BA2D4E687F360CF9EF0F6909882D93CB /* Pods-FYEmojiKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B60216FE15E3BDB7F60ABAAE9B2270B /* Pods-FYEmojiKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C78516DF730A43BD4039E54A72CFBDF1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */; };
+		C79D48847D7825BAD446D58304313058 /* FYEmojiPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1FF5D6AD819D67A6F747D84827AF72 /* FYEmojiPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA32C196A063C2E0C9C42F83151EBB9D /* FYEmojiKeyBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD03BA93233B98BE9126577CCF2A162 /* FYEmojiKeyBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCAC7E4803E9A26E3BD09DF1C4B0313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
+		CEF4D74C1924DA0B95F6855ED7039555 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */; };
+		D49CDB5A5718B5BEB3B0027DB80B282D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE408E5F43F8232410C0724CCF50E1D3 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4EB39FF3B3CD9C26658B640E9DA3FF2 /* FYEmojiKeyBoardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BA4B0E6CBC0499DFF87E89214C9640 /* FYEmojiKeyBoardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6DD09F8124B9B909A94A95D51E75EA0 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E49A044D51C76FE915FFD22D370812 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AB7263EE970AEF5DE91650FF6A43F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
+		FB8DF28D986F096A30865CA09798D564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C098B6F7EE975AF4D1A63B229992602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEC2AFA714CAB0833504D541F95A94E;
+			remoteInfo = "Pods-FYEmojiKeyboard_Example";
+		};
+		0EF20D70124B2EF27C6E7A3A1E5E29A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3F33AAB2527C8563403B50D27199FD;
+			remoteInfo = Masonry;
+		};
+		7D944006DBC8D12DC7F83C5A48E7A24E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3F33AAB2527C8563403B50D27199FD;
+			remoteInfo = Masonry;
+		};
+		853845981114D7B9335A927430DD2B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 096566C975C4A57F7E2B7AA6E8C89200;
+			remoteInfo = FYEmojiKeyboard;
+		};
+		8DCA90934314CC716135E9A0335EEBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764D7BEEA1FC088B10A6D0EFE858C494;
+			remoteInfo = "FYEmojiKeyboard-FYEmojiKeyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		13858656A22A9FC9294B689FB5AB0EE8 /* Pods-FYEmojiKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYEmojiKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
+		1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		234ED9206ADB8295D9F677D53B41DA4A /* Pods-FYEmojiKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYEmojiKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		26F8463476AD30A498BDB9E562859A44 /* FYEmojiPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYEmojiPageView.m; path = FYEmojiKeyboard/Classes/FYEmojiPageView.m; sourceTree = "<group>"; };
+		2756E961B0E1F0EDF662E373F7121BC6 /* FYEmojiKeyBoardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYEmojiKeyBoardManager.m; path = FYEmojiKeyboard/Classes/FYEmojiKeyBoardManager.m; sourceTree = "<group>"; };
+		2822BB62DF92D6DDA272B6CF8DFFDE55 /* FYEmojiKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYEmojiKeyboard-dummy.m"; sourceTree = "<group>"; };
+		287E7F08FEF94A1CDB203B7778E104BC /* Pods-FYEmojiKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYEmojiKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C61132F3B59E616DF6AB2FCEE0FB0CB /* FYEmojiKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYEmojiKeyboard-Info.plist"; sourceTree = "<group>"; };
+		2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		2EE131C7CF3ACBD63986C6AB5735D04D /* Pods-FYEmojiKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYEmojiKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2EF38278279563A5B4A8DF6255FD9E95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		39B1CA8C5F90F77234E2D12A3D2C5E4C /* Pods_FYEmojiKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYEmojiKeyboard_Example.framework; path = "Pods-FYEmojiKeyboard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408926D5A3F61D3B50C09D20F0524BF9 /* Pods-FYEmojiKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYEmojiKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		40A81A1BDAEAE3ACC6D67585140540E6 /* Pods-FYEmojiKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYEmojiKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		43BA56A061873718EC06171526FE1A00 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		43BB4C5C76735A339160FC6AB5ED7C94 /* FYEmojiKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYEmojiKeyboard.framework; path = FYEmojiKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A857AEA87094BBCD7A38CF89959B074 /* Pods-FYEmojiKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYEmojiKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5760978C2A27DF8CA6FCF64886A2A4B9 /* Pods-FYEmojiKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYEmojiKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		58BA4B0E6CBC0499DFF87E89214C9640 /* FYEmojiKeyBoardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYEmojiKeyBoardManager.h; path = FYEmojiKeyboard/Classes/FYEmojiKeyBoardManager.h; sourceTree = "<group>"; };
+		5B60216FE15E3BDB7F60ABAAE9B2270B /* Pods-FYEmojiKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYEmojiKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		6B9D163C757CD9C1C952C85E2F230411 /* FYEmojiKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FYEmojiKeyboard.bundle; path = "FYEmojiKeyboard-FYEmojiKeyboard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C559A012F7DB087A8B381E530AB0351 /* FYEmojiKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYEmojiKeyboard.modulemap; sourceTree = "<group>"; };
+		6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		71FD6D59BF0A9454B3C8886E772FAB17 /* FYEmojiKeyBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYEmojiKeyBoardView.m; path = FYEmojiKeyboard/Classes/FYEmojiKeyBoardView.m; sourceTree = "<group>"; };
+		72279253C5A69C3679E6419FF55D5DD1 /* Pods-FYEmojiKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYEmojiKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7AD03BA93233B98BE9126577CCF2A162 /* FYEmojiKeyBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYEmojiKeyBoardView.h; path = FYEmojiKeyboard/Classes/FYEmojiKeyBoardView.h; sourceTree = "<group>"; };
+		7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		824EEEF94719CC456A460114040A35AB /* Pods_FYEmojiKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYEmojiKeyboard_Tests.framework; path = "Pods-FYEmojiKeyboard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8E1FF5D6AD819D67A6F747D84827AF72 /* FYEmojiPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYEmojiPageView.h; path = FYEmojiKeyboard/Classes/FYEmojiPageView.h; sourceTree = "<group>"; };
+		8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		941FAD1C0095ADD9CBD48907A57B439D /* Pods-FYEmojiKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYEmojiKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		998D6634C115D4C55CB45C074E927E83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9BFAB8B3D3AA6EB1B8B27BBF9196E513 /* Pods-FYEmojiKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYEmojiKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A01E4BF6F4E211531BF3DCCCAD4FCF95 /* FYEmojiKeyBoardViewProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYEmojiKeyBoardViewProtocol.h; path = FYEmojiKeyboard/Classes/FYEmojiKeyBoardViewProtocol.h; sourceTree = "<group>"; };
+		A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		A3EC0121FDBC530599046D1A12C9E879 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		AA2E3BB16A5B7E090E46772345C03DA0 /* Pods-FYEmojiKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYEmojiKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		AD932DF2600B9DC25300943C9F7A58AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B21D6C895E7597B85A63650C62D85A48 /* FYEmojiKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYEmojiKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		BFB58A056A68EFE55D46F981812BF3C5 /* Pods-FYEmojiKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYEmojiKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		C87452665B73EF4381C94BD644794EAB /* Pods-FYEmojiKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYEmojiKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		D2D0178D4E9E1802983F158161DED2A0 /* FYEmojiTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYEmojiTextView.m; path = FYEmojiKeyboard/Classes/FYEmojiTextView.m; sourceTree = "<group>"; };
+		D534FD78F240750271ED73AE3EEBC294 /* Pods-FYEmojiKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYEmojiKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9642D5FB8172D6943F6F4609B56D3F6 /* FYEmojiKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYEmojiKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		DF0F58942912445D88BFAB3B05EFD126 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E495496A05ECD0D36907BD576887D0A0 /* Pods-FYEmojiKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYEmojiKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB99D042C2A77E18BEA0087F7CFB39B2 /* FYEmojiKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYEmojiKeyboard.xcconfig; sourceTree = "<group>"; };
+		EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		ECB755E06696C5AF7649F15E796DDFF2 /* ResourceBundle-FYEmojiKeyboard-FYEmojiKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FYEmojiKeyboard-FYEmojiKeyboard-Info.plist"; sourceTree = "<group>"; };
+		F39D8E73DE5D1054B03CD44721B1FA5E /* FYEmojiKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYEmojiKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F61785C7E2E057BB9CA04F02B5E19C06 /* FYEmojiTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYEmojiTextView.h; path = FYEmojiKeyboard/Classes/FYEmojiTextView.h; sourceTree = "<group>"; };
+		F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		F82B234F4F5BFC90ADFC13F2FCF6192E /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FD105A842885310E17861E5A37DDE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCAC7E4803E9A26E3BD09DF1C4B0313 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5639E3DEB0D59C2B8E44202D02C1479F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AB7263EE970AEF5DE91650FF6A43F5 /* Foundation.framework in Frameworks */,
+				53C23F4505457526BC62137C669E7E80 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A544AF712ABA76E4EE1CB8DA50632295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420CF69FACF58D737AE0C218D5064033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63503DDDAAD9CD9357285903C91B2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DF28D986F096A30865CA09798D564 /* Foundation.framework in Frameworks */,
+				712D93235379F6F46BEE37D467346036 /* Masonry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD2213B2579688C5B11E2F0AF6A1359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F3679AF67275DC8B8AEF5E158EFF20 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E1E542CB67FA2113CF792DEBB02A853 /* Pods-FYEmojiKeyboard_Example */,
+				F134B55EED776A2D2305DD6751072C8D /* Pods-FYEmojiKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1D11E1EBEF1CFA6418EEBA0E388E2012 /* FYEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				58BA4B0E6CBC0499DFF87E89214C9640 /* FYEmojiKeyBoardManager.h */,
+				2756E961B0E1F0EDF662E373F7121BC6 /* FYEmojiKeyBoardManager.m */,
+				7AD03BA93233B98BE9126577CCF2A162 /* FYEmojiKeyBoardView.h */,
+				71FD6D59BF0A9454B3C8886E772FAB17 /* FYEmojiKeyBoardView.m */,
+				A01E4BF6F4E211531BF3DCCCAD4FCF95 /* FYEmojiKeyBoardViewProtocol.h */,
+				8E1FF5D6AD819D67A6F747D84827AF72 /* FYEmojiPageView.h */,
+				26F8463476AD30A498BDB9E562859A44 /* FYEmojiPageView.m */,
+				F61785C7E2E057BB9CA04F02B5E19C06 /* FYEmojiTextView.h */,
+				D2D0178D4E9E1802983F158161DED2A0 /* FYEmojiTextView.m */,
+				318510335FB4CAE33066EB9C752BDDC5 /* Pod */,
+				BCBAE99AB15C8E5AFDD472C552F37F29 /* Support Files */,
+			);
+			name = FYEmojiKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2F3DF5D181636AD77EADB3786873A4A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7EABDD1A158A7C17608EAD787A8CD9 /* Masonry.framework */,
+				BAB1927D5856490F580749F4EDD29010 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		318510335FB4CAE33066EB9C752BDDC5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F39D8E73DE5D1054B03CD44721B1FA5E /* FYEmojiKeyboard.podspec */,
+				AD932DF2600B9DC25300943C9F7A58AC /* LICENSE */,
+				2EF38278279563A5B4A8DF6255FD9E95 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3383BD59F0CA45F38B2C4285AD319AC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3EC0121FDBC530599046D1A12C9E879 /* Masonry.modulemap */,
+				2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */,
+				266270F46FD6D8E798173DEC66BEECE4 /* Masonry-dummy.m */,
+				F82B234F4F5BFC90ADFC13F2FCF6192E /* Masonry-Info.plist */,
+				43BA56A061873718EC06171526FE1A00 /* Masonry-prefix.pch */,
+				7E145DFF9033B5609061BCCC32A734C7 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E1E542CB67FA2113CF792DEBB02A853 /* Pods-FYEmojiKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				40A81A1BDAEAE3ACC6D67585140540E6 /* Pods-FYEmojiKeyboard_Example.modulemap */,
+				E495496A05ECD0D36907BD576887D0A0 /* Pods-FYEmojiKeyboard_Example-acknowledgements.markdown */,
+				4A857AEA87094BBCD7A38CF89959B074 /* Pods-FYEmojiKeyboard_Example-acknowledgements.plist */,
+				941FAD1C0095ADD9CBD48907A57B439D /* Pods-FYEmojiKeyboard_Example-dummy.m */,
+				5760978C2A27DF8CA6FCF64886A2A4B9 /* Pods-FYEmojiKeyboard_Example-frameworks.sh */,
+				408926D5A3F61D3B50C09D20F0524BF9 /* Pods-FYEmojiKeyboard_Example-Info.plist */,
+				5B60216FE15E3BDB7F60ABAAE9B2270B /* Pods-FYEmojiKeyboard_Example-umbrella.h */,
+				BFB58A056A68EFE55D46F981812BF3C5 /* Pods-FYEmojiKeyboard_Example.debug.xcconfig */,
+				72279253C5A69C3679E6419FF55D5DD1 /* Pods-FYEmojiKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-FYEmojiKeyboard_Example";
+			path = "Target Support Files/Pods-FYEmojiKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */,
+				21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */,
+				EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */,
+				31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */,
+				B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */,
+				BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */,
+				D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */,
+				A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */,
+				9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */,
+				F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */,
+				5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */,
+				8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */,
+				1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */,
+				2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */,
+				F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */,
+				C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */,
+				01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */,
+				6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */,
+				89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */,
+				2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */,
+				78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */,
+				02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */,
+				4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */,
+				3383BD59F0CA45F38B2C4285AD319AC1 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		90FB341F8B3E22A35D3EBCB9EEF8F786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B9D163C757CD9C1C952C85E2F230411 /* FYEmojiKeyboard.bundle */,
+				43BB4C5C76735A339160FC6AB5ED7C94 /* FYEmojiKeyboard.framework */,
+				DF0F58942912445D88BFAB3B05EFD126 /* Masonry.framework */,
+				39B1CA8C5F90F77234E2D12A3D2C5E4C /* Pods_FYEmojiKeyboard_Example.framework */,
+				824EEEF94719CC456A460114040A35AB /* Pods_FYEmojiKeyboard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932F410E562F4B2686FFAED5B70F8B54 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D11E1EBEF1CFA6418EEBA0E388E2012 /* FYEmojiKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BAB1927D5856490F580749F4EDD29010 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5559CF883A4F2FF27FDED5EC5600A644 /* Foundation.framework */,
+				998D6634C115D4C55CB45C074E927E83 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BCBAE99AB15C8E5AFDD472C552F37F29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C559A012F7DB087A8B381E530AB0351 /* FYEmojiKeyboard.modulemap */,
+				EB99D042C2A77E18BEA0087F7CFB39B2 /* FYEmojiKeyboard.xcconfig */,
+				2822BB62DF92D6DDA272B6CF8DFFDE55 /* FYEmojiKeyboard-dummy.m */,
+				2C61132F3B59E616DF6AB2FCEE0FB0CB /* FYEmojiKeyboard-Info.plist */,
+				B21D6C895E7597B85A63650C62D85A48 /* FYEmojiKeyboard-prefix.pch */,
+				D9642D5FB8172D6943F6F4609B56D3F6 /* FYEmojiKeyboard-umbrella.h */,
+				ECB755E06696C5AF7649F15E796DDFF2 /* ResourceBundle-FYEmojiKeyboard-FYEmojiKeyboard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYEmojiKeyboard";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				932F410E562F4B2686FFAED5B70F8B54 /* Development Pods */,
+				2F3DF5D181636AD77EADB3786873A4A6 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				90FB341F8B3E22A35D3EBCB9EEF8F786 /* Products */,
+				07F3679AF67275DC8B8AEF5E158EFF20 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F134B55EED776A2D2305DD6751072C8D /* Pods-FYEmojiKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E3BB16A5B7E090E46772345C03DA0 /* Pods-FYEmojiKeyboard_Tests.modulemap */,
+				287E7F08FEF94A1CDB203B7778E104BC /* Pods-FYEmojiKeyboard_Tests-acknowledgements.markdown */,
+				D534FD78F240750271ED73AE3EEBC294 /* Pods-FYEmojiKeyboard_Tests-acknowledgements.plist */,
+				9BFAB8B3D3AA6EB1B8B27BBF9196E513 /* Pods-FYEmojiKeyboard_Tests-dummy.m */,
+				13858656A22A9FC9294B689FB5AB0EE8 /* Pods-FYEmojiKeyboard_Tests-Info.plist */,
+				C87452665B73EF4381C94BD644794EAB /* Pods-FYEmojiKeyboard_Tests-umbrella.h */,
+				234ED9206ADB8295D9F677D53B41DA4A /* Pods-FYEmojiKeyboard_Tests.debug.xcconfig */,
+				2EE131C7CF3ACBD63986C6AB5735D04D /* Pods-FYEmojiKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-FYEmojiKeyboard_Tests";
+			path = "Target Support Files/Pods-FYEmojiKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F795B0A067587B870EA94CADFEC83AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD50C037B6CA9D8AC7715850498C9BF /* Pods-FYEmojiKeyboard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45022334C7932575A854FCC9D6C26F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2D4E687F360CF9EF0F6909882D93CB /* Pods-FYEmojiKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AECBD795FE44522EA15132513E3F1364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F34F87E5588AD0ADC81DC1825933351 /* FYEmojiKeyboard-umbrella.h in Headers */,
+				E4EB39FF3B3CD9C26658B640E9DA3FF2 /* FYEmojiKeyBoardManager.h in Headers */,
+				CA32C196A063C2E0C9C42F83151EBB9D /* FYEmojiKeyBoardView.h in Headers */,
+				09EC3CB9B2B2632DC8C9AAC30064B544 /* FYEmojiKeyBoardViewProtocol.h in Headers */,
+				C79D48847D7825BAD446D58304313058 /* FYEmojiPageView.h in Headers */,
+				2634F00E32A10CFE81F470A595554C29 /* FYEmojiTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7785C9D908C3DB93FA33ABA87481CEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B21FDFDF49D8DC21B3B6994A17F0872 /* MASCompositeConstraint.h in Headers */,
+				71CD8A7768C4B1B75F38A90630FDBB5C /* MASConstraint+Private.h in Headers */,
+				E6E49A044D51C76FE915FFD22D370812 /* MASConstraint.h in Headers */,
+				35EFCC2C02B6C7C8864585AF8C5FBE12 /* MASConstraintMaker.h in Headers */,
+				7475BFA898E94BD5AED1E96E171A1518 /* MASLayoutConstraint.h in Headers */,
+				4721D2BD9C0A3F3524C3C23AD5135FE7 /* Masonry-umbrella.h in Headers */,
+				01F3B5751CE3DB55C9EEB444369A82DA /* Masonry.h in Headers */,
+				2CA9793440535ED7D8BDDC3A565B8666 /* MASUtilities.h in Headers */,
+				DE408E5F43F8232410C0724CCF50E1D3 /* MASViewAttribute.h in Headers */,
+				232C5F245BA53350E0440C73EB0838E3 /* MASViewConstraint.h in Headers */,
+				44FB37C309E7A714D54C8B7F9F0A33F3 /* NSArray+MASAdditions.h in Headers */,
+				698FE3DD3CF6B2B6FEF77FEEFE638E47 /* NSArray+MASShorthandAdditions.h in Headers */,
+				D49CDB5A5718B5BEB3B0027DB80B282D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				E6DD09F8124B9B909A94A95D51E75EA0 /* View+MASAdditions.h in Headers */,
+				231FEA6FC935B90491F02BCB3F5000B9 /* View+MASShorthandAdditions.h in Headers */,
+				0F3493EA78ADD63F1E3AE7141E480A94 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		096566C975C4A57F7E2B7AA6E8C89200 /* FYEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F6EDAED892EA6F91C030967547DA56 /* Build configuration list for PBXNativeTarget "FYEmojiKeyboard" */;
+			buildPhases = (
+				AECBD795FE44522EA15132513E3F1364 /* Headers */,
+				C8A116F9B2892C86710CA73E30AC01E5 /* Sources */,
+				B63503DDDAAD9CD9357285903C91B2D8 /* Frameworks */,
+				8D6916904878564B6122AAB31C9973BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E556F83106901E8F811F9CCEC5544048 /* PBXTargetDependency */,
+				859968049DCD6CB456C6B0F0168445B9 /* PBXTargetDependency */,
+			);
+			name = FYEmojiKeyboard;
+			productName = FYEmojiKeyboard;
+			productReference = 43BB4C5C76735A339160FC6AB5ED7C94 /* FYEmojiKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		764D7BEEA1FC088B10A6D0EFE858C494 /* FYEmojiKeyboard-FYEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25CBB36F612F73594C85A4E6F8438245 /* Build configuration list for PBXNativeTarget "FYEmojiKeyboard-FYEmojiKeyboard" */;
+			buildPhases = (
+				3DD24A9EB6EC587C38874F5A23E5F83D /* Sources */,
+				ECD2213B2579688C5B11E2F0AF6A1359 /* Frameworks */,
+				A912588457AE4A505EFE991D99700E63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FYEmojiKeyboard-FYEmojiKeyboard";
+			productName = "FYEmojiKeyboard-FYEmojiKeyboard";
+			productReference = 6B9D163C757CD9C1C952C85E2F230411 /* FYEmojiKeyboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9C7CCA6407363B8F4ADD00E3BCF69B7C /* Pods-FYEmojiKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B278EF1ABED99FEE73DA645789DD041 /* Build configuration list for PBXNativeTarget "Pods-FYEmojiKeyboard_Tests" */;
+			buildPhases = (
+				0F795B0A067587B870EA94CADFEC83AA /* Headers */,
+				71B624F0363B3A07336F683CAF2CD00A /* Sources */,
+				A544AF712ABA76E4EE1CB8DA50632295 /* Frameworks */,
+				F496E6545B4C84C76D4C901055FC1711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F590F0078C8F477877FC3BF88A17A16 /* PBXTargetDependency */,
+			);
+			name = "Pods-FYEmojiKeyboard_Tests";
+			productName = "Pods-FYEmojiKeyboard_Tests";
+			productReference = 824EEEF94719CC456A460114040A35AB /* Pods_FYEmojiKeyboard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFEC2AFA714CAB0833504D541F95A94E /* Pods-FYEmojiKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688FF65003232FFA5505F04589E9DA1F /* Build configuration list for PBXNativeTarget "Pods-FYEmojiKeyboard_Example" */;
+			buildPhases = (
+				A45022334C7932575A854FCC9D6C26F2 /* Headers */,
+				3CAAE70CE15DC700A89E6A6682C5A62A /* Sources */,
+				46FD105A842885310E17861E5A37DDE0 /* Frameworks */,
+				B1D1F2BE0C1ED3D27FA69D32369210C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9474D6E998420F8DDD5E6AE8410E9E /* PBXTargetDependency */,
+				D9CCC4D7B81E05258085A97188430467 /* PBXTargetDependency */,
+			);
+			name = "Pods-FYEmojiKeyboard_Example";
+			productName = "Pods-FYEmojiKeyboard_Example";
+			productReference = 39B1CA8C5F90F77234E2D12A3D2C5E4C /* Pods_FYEmojiKeyboard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA3F33AAB2527C8563403B50D27199FD /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BB781D1DDA2C272DA952E4CB581E33 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				B7785C9D908C3DB93FA33ABA87481CEC /* Headers */,
+				C99457768902C388A79FCF76F307A4FA /* Sources */,
+				5639E3DEB0D59C2B8E44202D02C1479F /* Frameworks */,
+				3D574BCD50C442CCB01D0D4C824C7BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = DF0F58942912445D88BFAB3B05EFD126 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 90FB341F8B3E22A35D3EBCB9EEF8F786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096566C975C4A57F7E2B7AA6E8C89200 /* FYEmojiKeyboard */,
+				764D7BEEA1FC088B10A6D0EFE858C494 /* FYEmojiKeyboard-FYEmojiKeyboard */,
+				FA3F33AAB2527C8563403B50D27199FD /* Masonry */,
+				AFEC2AFA714CAB0833504D541F95A94E /* Pods-FYEmojiKeyboard_Example */,
+				9C7CCA6407363B8F4ADD00E3BCF69B7C /* Pods-FYEmojiKeyboard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D574BCD50C442CCB01D0D4C824C7BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6916904878564B6122AAB31C9973BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C27B1E1A38C93CCC675C65DBD9B4C31 /* FYEmojiKeyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A912588457AE4A505EFE991D99700E63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D1F2BE0C1ED3D27FA69D32369210C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F496E6545B4C84C76D4C901055FC1711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAAE70CE15DC700A89E6A6682C5A62A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F2B3AD7F9B3F56FE0863F7FBAF2C34 /* Pods-FYEmojiKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD24A9EB6EC587C38874F5A23E5F83D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B624F0363B3A07336F683CAF2CD00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51B0C834690BE5E5EF7A36196E5859E5 /* Pods-FYEmojiKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A116F9B2892C86710CA73E30AC01E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A909BCB70D1098A9BF5D509100D5DBC /* FYEmojiKeyboard-dummy.m in Sources */,
+				3936B645AEEC511523D9F7F462F579C4 /* FYEmojiKeyBoardManager.m in Sources */,
+				54E2959ECB8F2FE5334F59E064AD7C3D /* FYEmojiKeyBoardView.m in Sources */,
+				69E8CBCF5AB4C601C6C41458DFD18A7E /* FYEmojiPageView.m in Sources */,
+				038CAA9766C9772184F9C592438D1117 /* FYEmojiTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99457768902C388A79FCF76F307A4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2EEACEA61FD75C74C37BBCC22D55CE /* MASCompositeConstraint.m in Sources */,
+				7A953320247DF8891C41A5E7E92040FB /* MASConstraint.m in Sources */,
+				71DE538638014F79EAA447B2A1C81607 /* MASConstraintMaker.m in Sources */,
+				CEF4D74C1924DA0B95F6855ED7039555 /* MASLayoutConstraint.m in Sources */,
+				B2A12EA353DCA150B5F1A771085CD670 /* Masonry-dummy.m in Sources */,
+				AFD883AB8BE375FDBC2C5AE587D591DF /* MASViewAttribute.m in Sources */,
+				0466485F6E2A4AEAAD03C0BD65FED0AB /* MASViewConstraint.m in Sources */,
+				8FECFCDE01AAB8331B5029004AD48BC3 /* NSArray+MASAdditions.m in Sources */,
+				0241BF9B31A9632E774C1343DDC9345A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C78516DF730A43BD4039E54A72CFBDF1 /* View+MASAdditions.m in Sources */,
+				51373BA8D4A168AF2F31D3C832DC0262 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F590F0078C8F477877FC3BF88A17A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FYEmojiKeyboard_Example";
+			target = AFEC2AFA714CAB0833504D541F95A94E /* Pods-FYEmojiKeyboard_Example */;
+			targetProxy = 0C098B6F7EE975AF4D1A63B229992602 /* PBXContainerItemProxy */;
+		};
+		859968049DCD6CB456C6B0F0168445B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = FA3F33AAB2527C8563403B50D27199FD /* Masonry */;
+			targetProxy = 7D944006DBC8D12DC7F83C5A48E7A24E /* PBXContainerItemProxy */;
+		};
+		AB9474D6E998420F8DDD5E6AE8410E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYEmojiKeyboard;
+			target = 096566C975C4A57F7E2B7AA6E8C89200 /* FYEmojiKeyboard */;
+			targetProxy = 853845981114D7B9335A927430DD2B2F /* PBXContainerItemProxy */;
+		};
+		D9CCC4D7B81E05258085A97188430467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = FA3F33AAB2527C8563403B50D27199FD /* Masonry */;
+			targetProxy = 0EF20D70124B2EF27C6E7A3A1E5E29A0 /* PBXContainerItemProxy */;
+		};
+		E556F83106901E8F811F9CCEC5544048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FYEmojiKeyboard-FYEmojiKeyboard";
+			target = 764D7BEEA1FC088B10A6D0EFE858C494 /* FYEmojiKeyboard-FYEmojiKeyboard */;
+			targetProxy = 8DCA90934314CC716135E9A0335EEBCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		19EA3EC6DD822AA090E6DE6A8E2D0679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB99D042C2A77E18BEA0087F7CFB39B2 /* FYEmojiKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYEmojiKeyboard/FYEmojiKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYEmojiKeyboard/FYEmojiKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYEmojiKeyboard/FYEmojiKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = FYEmojiKeyboard;
+				PRODUCT_NAME = FYEmojiKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		327DCC0BFEA133FD49C4B2FBF25FF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72279253C5A69C3679E6419FF55D5DD1 /* Pods-FYEmojiKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Example/Pods-FYEmojiKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Example/Pods-FYEmojiKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		36E6C04924E7C494B32684B665CFD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3D11D2302C2C41284CB3B7A8CCBA9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB58A056A68EFE55D46F981812BF3C5 /* Pods-FYEmojiKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Example/Pods-FYEmojiKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Example/Pods-FYEmojiKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A622DEA5E634963BA7C83DDB082F35B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB99D042C2A77E18BEA0087F7CFB39B2 /* FYEmojiKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FYEmojiKeyboard";
+				INFOPLIST_FILE = "Target Support Files/FYEmojiKeyboard/ResourceBundle-FYEmojiKeyboard-FYEmojiKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FYEmojiKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B6E86CE5F6417FF5EB88322866D860A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB99D042C2A77E18BEA0087F7CFB39B2 /* FYEmojiKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYEmojiKeyboard/FYEmojiKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYEmojiKeyboard/FYEmojiKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYEmojiKeyboard/FYEmojiKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = FYEmojiKeyboard;
+				PRODUCT_NAME = FYEmojiKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB7AB0797DFD9A8D8F7B0D44FAA0BC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9C3CD0C87A4BC046B80B3F1A6939B1 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFB2191BB6D54AA92373E0FEDFEBE1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB99D042C2A77E18BEA0087F7CFB39B2 /* FYEmojiKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FYEmojiKeyboard";
+				INFOPLIST_FILE = "Target Support Files/FYEmojiKeyboard/ResourceBundle-FYEmojiKeyboard-FYEmojiKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FYEmojiKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D9A0CF9B1A98A00CD794A21F5B0FD7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234ED9206ADB8295D9F677D53B41DA4A /* Pods-FYEmojiKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Tests/Pods-FYEmojiKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Tests/Pods-FYEmojiKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB64C22F5E4CF5C007EEC84AB7E85D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EE131C7CF3ACBD63986C6AB5735D04D /* Pods-FYEmojiKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Tests/Pods-FYEmojiKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYEmojiKeyboard_Tests/Pods-FYEmojiKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F6EDAED892EA6F91C030967547DA56 /* Build configuration list for PBXNativeTarget "FYEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EA3EC6DD822AA090E6DE6A8E2D0679 /* Debug */,
+				B6E86CE5F6417FF5EB88322866D860A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25CBB36F612F73594C85A4E6F8438245 /* Build configuration list for PBXNativeTarget "FYEmojiKeyboard-FYEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB2191BB6D54AA92373E0FEDFEBE1CF /* Debug */,
+				A622DEA5E634963BA7C83DDB082F35B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BB781D1DDA2C272DA952E4CB581E33 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7AB0797DFD9A8D8F7B0D44FAA0BC9B /* Debug */,
+				36E6C04924E7C494B32684B665CFD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688FF65003232FFA5505F04589E9DA1F /* Build configuration list for PBXNativeTarget "Pods-FYEmojiKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D11D2302C2C41284CB3B7A8CCBA9BE /* Debug */,
+				327DCC0BFEA133FD49C4B2FBF25FF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B278EF1ABED99FEE73DA645789DD041 /* Build configuration list for PBXNativeTarget "Pods-FYEmojiKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A0CF9B1A98A00CD794A21F5B0FD7E1 /* Debug */,
+				FB64C22F5E4CF5C007EEC84AB7E85D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
