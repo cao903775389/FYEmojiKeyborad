@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FYEmojiKeyboard/Classes/**/*'
   
-  s.resource_bundles = {
-     'FYEmojiKeyboard' => ['FYEmojiKeyboard/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'FYEmojiKeyboard' => ['FYEmojiKeyboard/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
